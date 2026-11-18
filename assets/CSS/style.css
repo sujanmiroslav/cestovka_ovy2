@@ -1,0 +1,50 @@
+
+:root {
+  --primarna: #2563eb;
+  --primarna-tmava: #1e40af;
+  --akcent: #f97316;
+  --text-tmavy: #1f2937;
+  --text-stredny: #6b7280;
+  --pozadie-biela: #ffffff;
+  --pozadie-svetla: #f9fafb;
+
+
+  --font-nadpisy: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  --medzera-s: 1rem;
+  --medzera-m: 1.5rem;
+  --medzera-l: 2rem;
+  --medzera-x: 3rem;
+
+
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    background-color: var(--pozadie-biela);
+    color: var(--text-tmavy);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-nadpisy)
+}
+
+.hlavicka {
+    background-color: var(--primarna);
+    color: var(--pozadie-svetla);
+    display: flex;
+    flex-direction: column;
+}
